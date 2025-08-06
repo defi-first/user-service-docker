@@ -1,4 +1,4 @@
-FROM node:latest
+FROM node:alpile
 WORKDIR /app
 ADD . .
 RUN npm install
